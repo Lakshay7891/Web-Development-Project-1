@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(216, 46, 46);
+    padding: 1rem;
+    cursor:pointer;
+}
+
+.left{
+    color: white;
+    font-weight: bold;
+    
+}
+
+.right > button{
+    color:white;
+    background-color: rgb(216, 46, 46);
+    border: none;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-size: 1srem;
+    cursor:pointer
+}
+
+.searchbar{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(148, 140, 140);
+
+}
+
+.searching{
+    /* width: 15rem; */
+    width: 18rem;
+    max-width: 60%;
+    padding: 0.7rem;
+    border-radius: 10px;
+    border: none;
+}
+
+.red{
+    margin-left: 1rem;
+    width: 4rem;
+    color: white;
+    background-color: rgb(216, 46, 46);
+    border-radius: 10px;
+    border: none;
+}
+
+.hero{
+    height: 8rem;
+    background-image: url(./mover.jpg);
+    
+}
+
+.experience{
+    text-align: center;
+    
+}
+
+
+h2{
+    color: white;
+    padding-top: 2rem;
+    
+}
+
+.book{
+    color: white;
+    background-color: rgb(216, 46, 46);
+    font-size: 1.3rem;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.popular{
+    text-align: center;
+    padding-top: 8px;
+}
+
+.img1{
+    height: 300px;
+    border-radius: 10px;
+}
+
+.movie{
+    display: flex;
+     overflow-x: scroll;
+}
+
+.card{
+    margin: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+   
+}
+h3{
+    text-align: center;
+}
+
+.endless{
+    margin-left: 3rem;
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media (max-width:620px)
+{
+    .logo{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .right{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .movie{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
+.hero-sec{
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.events{
+    margin-top: 3rem;
+    font-size: 2rem;
+    color: rgb(32, 30, 30);
+
+}
+
+.events > h3{
+    text-align: left;
+    margin-left: 3rem;
+}
+
+.live-event{
+    display: flex;
+    overflow-x: scroll;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    padding-bottom: 3rem;
+    
+}
+
+.img-tag{
+    margin-left: 2rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    width: 14rem;
+   
+}
+
+.premiere{
+    width: 100%;
+    height: 100%;
+    background-color: #2b3147;
+    overflow-x: hidden;
+    padding-bottom: 2rem;
+    cursor:pointer;
+}
+
+.premiere-button{
+    margin-left: 3rem;
+}
+
+.heading-premiere{
+    margin-left: 3rem;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.premier-images{
+    width: 14rem;
+    height: 23rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    cursor:pointer
+   
+    
+}
+
+.premier-image{
+    display: flex;
+    overflow-x: scroll;
+}
+
+.white-h, .white-p{
+    color: white;
+}
+
+.white-p{
+    text-align: center;
+}
+
+.head-music{
+    text-align: left;
+    font-size: 2rem;
+    color: #333333;
+    padding-top: 1rem;
+    margin-left: 3rem;
+}
+
+.image-music-studio{
+    width: 10.2rem;
+    height: 17.4rem;
+    border-radius: 2rem;
+}
+
+.raag{
+    text-align: left;
+}
+
+.images-music-studio{
+    display: flex;
+    gap: 3rem;
+    overflow-x: scroll;
+    padding-top: 2rem;
+    margin-left: 3rem;
+}
+
+.music-col{
+    color: #666666
+}
+
+.second-last-heading{
+    font-size: 1.5rem;
+    color: #333333;
+    text-align: left;
+}
+
+.heading-trending{
+    text-align: left;
+}
+
+.border-movie{
+    text-align: left;
+    color: red;
+}
+
+.borders{
+    display: inline-block;
+    border: 3px solid black;
+    padding: 1.2rem;
+    margin-left: 2.3rem;
+    margin-top: 2rem;
+    
+}
+
+.margin{
+    margin-top: 2rem;
+}
